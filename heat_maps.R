@@ -9,4 +9,4 @@ miRNA <- GSE120277_RNAseq_data[2:10]
 miRNAheat <-scale(miRNA)
 
 #plot heatmap
-heatmap(miRNAheat, scale = "row")
+heatmap(miRNAheat, scale = "row", cexRow = 0.7, cexCol = 0.7)
